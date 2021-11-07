@@ -47,14 +47,10 @@ func main() {
 			//записываем в файл данные
 
 			file.WriteString(jsonstring)
+			// VOOD ON EKRAN
 
 			fmt.Fprintf(w, jsonstring)
 
-			//fmt.Println(Cars)
-			// fmt.Println(addCar)
-			// fmt.Println(jsonData)
-			// fmt.Println(jsonstring)
-			// fmt.Println(Cars)
 		}
 
 	})
