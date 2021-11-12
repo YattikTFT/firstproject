@@ -30,5 +30,8 @@ func main() {
 	json.Unmarshal(jsonData, &users)
 
 	fmt.Println(users)
+	fmt.Println(users)
+	fmt.Println(users)
+	fmt.Println(users)
 
 }
